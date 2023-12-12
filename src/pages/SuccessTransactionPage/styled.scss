@@ -1,0 +1,31 @@
+.SuccessTransactionPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .Link {
+        width: 100%;
+
+        padding: 1rem;
+        font-size: 1.5rem;
+
+        color: white;
+        background-color: #4343ff;
+        border: 1px solid ;
+        border-radius: 1rem;
+    }
+    a {
+        color: white;
+        background: #4343ff;
+        border-radius: 1rem;
+
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+}

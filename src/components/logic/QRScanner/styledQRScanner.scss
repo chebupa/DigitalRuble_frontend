@@ -1,0 +1,91 @@
+.scanner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //background: black;
+
+    #qrCodeContainer {
+        position: relative;
+        width: 300px;
+        height: 300px;
+
+        border-radius: 7px;
+        overflow: hidden;
+    }
+
+    #qr-shaded-region {
+        border-width: 50px !important;
+    }
+
+    video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: auto !important;
+        min-width: 100%;
+        min-height: 100%;
+
+        transform: translate(-50%, -50%);
+    }
+
+    .qr-message {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        padding: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: white;
+        background: rgba(0, 0, 0, 0.1);
+
+        font-size: 18px;
+        text-align: center;
+        word-break: break-word;
+
+        overflow: hidden;
+    }
+
+    .start-button {
+        //position: absolute;
+        //top: 30px;
+        //right: 30px;
+        //width: 40px;
+        //height: 40px;
+        //background: red;
+        //border: 0;
+        //border-radius: 7px;
+        //font-size: 20px;
+        //color: white;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10rem; /* Need a specific value to work */
+
+        display: flex;
+
+        //width: 30%;
+
+        padding: 1rem;
+        font-size: 1.5rem;
+
+        color: white;
+        background-color: #4343ff;
+        border: 1px solid ;
+        border-radius: 1rem;
+
+        transition: all 0.2s ease-in-out;
+    }
+}

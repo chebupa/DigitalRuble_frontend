@@ -1,0 +1,14 @@
+.CommitTransactionPage {
+    a {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+
+        p {
+            line-height: 3rem;
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('https://fonts.cdnfonts.com/css/roboto');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    //width: 0 !important; /* Safari, Chrome, Opera */
+}
+
+body {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.App {}
